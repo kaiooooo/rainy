@@ -1,0 +1,15 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('sakura.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+h1 {
+    color: whitesmoke
+}
