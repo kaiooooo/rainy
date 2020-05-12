@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    color: deepskyblue;
 }
 
 body {
@@ -7,9 +8,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-}
+    height: 100%
+    }
 
-h1 {
-    color: whitesmoke
-}
+    h1  {color: pink;}
+    p   {color: pink;}
+
+    
