@@ -9,9 +9,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%
-    }
+}
 
-    h1  {color: pink;}
-    p   {color: pink;}
-
-    
+h1 {
+    color: pink;
+}
+p {
+    color: pink;
+}
+a {
+    text-decoration:none;
+    color: pink;
+    font-size: 30px;
+}
