@@ -21,7 +21,7 @@ p {
 }
 a {
     text-decoration:none;
-    color: pink;
+    color:black;
     font-size: 30px;
 }
 
@@ -39,9 +39,9 @@ a {
     margin-right: auto;
     margin-left: auto;
     display: block;
-    border: 3px solid black;
+    border: 3px solid #960000;
     border-radius: 60%;
-    width: 160px;
+    width: 220px;
     margin-bottom: 16px;
 }
 
