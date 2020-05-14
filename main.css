@@ -4,22 +4,22 @@ html {
 }
 
 body {
-    background-image: url('96c6a8793d3078187111da78527bc977.jpg');
+    background-image: url('41b034348291a852915cf92d1cad67a3.gif');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%
 }
 
 h1 {
-    color: pink;
+    color: lightslategrey;
 }
 p {
-    color: pink;
+    color: darkred;
     font-size: 20px;
 }
 a {
     text-decoration:none;
-    color: pink;
+    color: black;
     font-size: 30px;
 }
 
@@ -31,3 +31,4 @@ a {
 .mk {
     text-align: center;
 }
+
