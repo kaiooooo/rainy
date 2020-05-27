@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-image: url('ed8aa22c26a46c018a3fc0731de8a722.gif');
+    background-image: url('fb51a7031951124fba1515356535e84c.gif');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -16,12 +16,12 @@ h1 {
     color: lightslategrey;
 }
 p {
-    color: darkred;
+    color:white;
     font-size: 20px;
 }
 a {
     text-decoration:none;
-    color:black;
+    color:white;
     font-size: 30px;
 }
 
