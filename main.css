@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-image: url('1540172984_czxc.gif');
+    background-image: url('c097f0fab9648322978b17dbe3b93a6c.gif');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -16,13 +16,13 @@ h1 {
     color: lightslategrey;
 }
 p {
-    color: black;
+    color: white;
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 a {
     text-decoration:none;
-    color: firebrick;
+    color: white; 
     font-size: 30px;
 }
 
