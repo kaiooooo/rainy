@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-image: url('545536-minimalism-simple-black_background.jpg');
+    background-image: url('d7lvf7p-9a954aa8-299e-4e16-8b11-16ae4c5d7d00.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -24,6 +24,7 @@ a {
     text-decoration:none;
     color: white; 
     font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .description {
@@ -44,7 +45,7 @@ a {
     border: 2px solid white;
     border-radius: 60%;
     width: 220px;
-    margin-bottom: 350px;
+    margin-bottom: 100px;
 }
 
 .container {
