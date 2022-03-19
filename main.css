@@ -1,57 +1,69 @@
 html {
-    height: 100%;
-    color: deepskyblue;
+  height: 100%;
+  color: deepskyblue;
 }
 
 body {
-    background-image: url('MInimalist-landscape-wallpaper-night-moon-desktop-hd.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    padding: 0;
-    margin: 0;
+  background-image: url("312313-mountains-landscape-minimalism-5k-hd-artist-4k-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90%;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
-    color: lightslategrey;
+  color: lightslategrey;
 }
 p {
-    color: white;
-    font-size: 24px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 24px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 a {
-    text-decoration:none;
-    color: white; 
-    font-size: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .description {
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: x-large
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: x-large;
 }
 
 .mk {
-    margin: auto ;
-    text-align: center;
-}
-
-.shine {
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    border: 2px solid white;
-    border-radius: 60%;
-    width: 220px;
-    margin-bottom: 100px;
+  margin: auto;
+  text-align: center;
 }
 
 .container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-  }
-  
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.icon::before {
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  text-transform: none !important;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+}
+
+.shine {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  border: 2px solid rgb(11, 114, 20);
+  border-radius: 60%;
+  width: 220px;
+  margin-bottom: 100px;
+}
