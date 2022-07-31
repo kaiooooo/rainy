@@ -10,6 +10,7 @@ body {
   height: 90%;
   padding: 0;
   margin: 0;
+  overflow: none;
 }
 
 h1 {
