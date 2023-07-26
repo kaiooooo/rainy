@@ -1,6 +1,6 @@
 html {
   height: 100%;
-  color: deepskyblue;
+  color: white;
 }
 
 body {
@@ -37,6 +37,14 @@ a {
 .mk {
   margin: auto;
   text-align: center;
+}
+
+.social-medias {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
 }
 
 .container {
