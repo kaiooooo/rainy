@@ -12,6 +12,9 @@
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
     <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       type="text/css"
@@ -21,13 +24,13 @@
   </head>
 
   <body>
-    <div class="music">
-      <p>Click here for music!</p>
-      <img src="img2.png" id="icon" />
     </div>
     <div class="container">
       <div class="mk">
         <img src="img4.jpg" alt="Avatar" class="shine" />
+        <p class="img-la" style="font-family: 'Times New Roman', Times, serif">
+          Make it count.
+        </p>
         <div class="social-medias">
           <a href="https://twitter.com/kaiohk_" target="_blank">
             <i class="fa-brands fa-twitter fa-lg"></i>
@@ -44,30 +47,28 @@
             <i class="fa-brands fa-youtube fa-lg" style="color: #ffffff"></i>
           </a>
         </div>
-        <p style="font-family: 'Times New Roman', Times, serif">
-          Make it count.
-        </p>
-        <p class="description">🇧🇷, 🇸🇵</p>
+        <div class="descricao">
+          <h2>Bandana</h2>
+          <i>Veigh, ft.Yunk Vino</i>
+        </div>
+        <div class="duracao">
+          <div class="barra">
+            <progress value="0" max="1"></progress>
+            <div class="ponto"></div>
+          </div>
+          <div class="tempo">
+            <p class="inicio">0:00</p>
+            <i class="fa-solid fa-circle-play botao-play" style="color: white;"></i>
+            <i class="fa-solid fa-circle-pause botao-pause" style="color: white;"></i>
+            <p class="fim">1:21</p>
+          </div>
+        </div>
+     <audio src="musica/song.mp3"></audio>
+        <script src="script.js"></script>
         <b
           style="color: #131212e7; font-family: 'Times New Roman', Times, serif"
         ></b>
       </div>
     </div>
-    <audio id="mySong">
-      <source src="musica/song.mp3" type="audio/mp3" />
-    </audio>
-    <script>
-      var mySong = document.getElementById("mySong");
-      var icon = document.getElementById("icon");
-      icon.onclick = function () {
-        if (mySong.paused) {
-          mySong.play();
-          icon.src = "img3.png";
-        } else {
-          mySong.pause();
-          icon.src = "img2.png";
-        }
-      };
-    </script>
   </body>
 </html>
