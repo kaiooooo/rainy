@@ -115,10 +115,6 @@ a {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-::-webkit-scrollbar {
-  width: 0px;
-}
-
 .duracao {
   width: 300px;
   margin-top: 25px;
@@ -137,8 +133,9 @@ a {
 progress {
   height: 6px;
   width: 0%;
-  background-color: white;
-  border-radius: 1000px;
+  background-color: #f2f2f2;
+  border: 4px solid #f2f2f2;
+  border-radius: 60px;
 }
 
 .ponto {
@@ -172,4 +169,8 @@ progress {
 
 body {
   overflow-y: hidden; /* Hide horizontal scrollbar */
+}
+
+::-webkit-scrollbar {
+  width: 0px;
 }
