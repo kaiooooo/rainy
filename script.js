@@ -36,3 +36,26 @@ function segundosParaMinutos(segundos) {
 
   return campoMinuto + ":" + campoSegundos;
 }
+
+window.sr = ScrollReveal({ reset: true });
+
+sr.reveal(".social-medias", {
+  rotate: { x: 0, y: 85, z: 0 },
+  duration: 2000,
+});
+sr.reveal("h2", {
+  rotate: { x: 0, y: 85, z: 0 },
+  duration: 2000,
+});
+sr.reveal(".duracao", {
+  rotate: { x: 0, y: 85, z: 0 },
+  duration: 2000,
+});
+sr.reveal(".img-la", {
+  rotate: { x: 0, y: 85, z: 0 },
+  duration: 2000,
+});
+sr.reveal(".mk", {
+  rotate: { x: 0, y: 85, z: 0 },
+  duration: 2000,
+});

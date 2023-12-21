@@ -25,6 +25,7 @@ h1 {
 
 h2 {
   font-family: "Lora", serif;
+  visibility: hidden;
 }
 
 i {
@@ -56,6 +57,7 @@ a {
   flex-direction: column;
   justify-content: center;
   height: 794px;
+  visibility: hidden;
 }
 
 .social-medias {
@@ -64,6 +66,7 @@ a {
   justify-content: space-around;
   text-align: center;
   align-items: center;
+  visibility: hidden;
 }
 
 .container {
@@ -118,6 +121,7 @@ a {
 .duracao {
   width: 300px;
   margin-top: 25px;
+  visibility: hidden;
 }
 
 .barra {
@@ -165,6 +169,7 @@ progress {
 
 .descricao {
   margin-top: 9rem;
+  visibility: hidden;
 }
 
 body {
@@ -173,4 +178,8 @@ body {
 
 ::-webkit-scrollbar {
   width: 0px;
+}
+
+.img-la {
+  visibility: hidden;
 }
